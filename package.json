@@ -12,6 +12,8 @@
     "nuxt": "^3.2.3"
   },
   "dependencies": {
-    "@nuxtjs/supabase": "^0.3.1"
+    "@nuxtjs/supabase": "^0.3.1",
+    "swiper": "^9.1.0",
+    "vue-slick-carousel": "^1.0.6"
   }
 }
