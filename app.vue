@@ -2,8 +2,8 @@
     <main 
 
 
-class=" top-0 w-full h-full bg-cover text-white" style="
-     background-image: url('https://img.freepik.com/free-vector/worldwide-connection-green-background-illustration-vector_53876-61766.jpg?w=826&t=st=1678356933~exp=1678357533~hmac=7b430b72fd499354ec3d55c3a06346ec64de7a13220384ee01b5265dae7b211f');">
+class=" top-0 w-full h-full bg-cover text-black font-bold" style="
+     background-image: url('https://images.unsplash.com/photo-1536566482680-fca31930a0bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBvcnRmb2xpbyUyMHBsYWluJTIwYmxhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');">
   
   <div class=" text-xl flex flex-row gap-4 items-center justify-center">
     <nuxt-link to="/">Home</nuxt-link>

@@ -9,23 +9,7 @@
      <div class=" flex items-center justify-end pr-6 pl-6 px-3 my-4 mx-60 rounded-md border-slate-700  text-white">
      
 
-  <div class="swiper-container">
-    <div class="swiper-wrapper flex flex-row">
-      <div class="swiper-slide ">
-        <img src="../assets/nuxt.png" alt="  1" />
-      </div>
-      <div class="swiper-slide">
-        <img src="../assets/django.png" alt="  2" />
-      </div>
-      <div class="swiper-slide">
-        <img src="../assets/tailwindcss.png" alt="  3" />
-      </div>
-      <div class="swiper-slide">
-        <img src="../assets/vuejs.png" alt="  4" />
-      </div>
-    </div>
-    <div class="swiper-pagination"></div>
-  </div>
+  
       
      </div>
         </div>
@@ -55,11 +39,11 @@
   
         <div class="  flex justify-center items-center min-h-screen h-full  left-16 relative md:left-28 top-1 z-10 w-4/5 flex-col">
         
-            <div class=" pt-3   mt-3 hover:scale-90">
+            <div class=" pt-3   mt-3  ">
           <h1 class=" text-white text-2xl">Nuxt.js</h1> 
         <div class=" flex  flex-col md:flex-row justify-center items-center m-5 "> 
         
-        <div class=" transition-all duration-500 transform hover:opacity-25 pt-1 hover:bg-white">
+        <div class=" transition-all duration-500 transform hover:opacity-25 pt-1  ">
           <img src="../assets/nuxt.png" alt="" class="  w-56 md:mr-80">
         </div>
         
@@ -67,11 +51,11 @@
         
         </div>
         </div>
-        <div class=" pt-3   mt-3 hover:scale-90">
+        <div class=" pt-3   mt-3  ">
           <h1 class=" text-white text-2xl">Django</h1> 
         <div class=" flex  flex-col md:flex-row justify-center items-center m-5 "> 
         
-        <div class=" transition-all duration-500 transform hover:opacity-90 pt-1 hover:bg-white">
+        <div class=" transition-all duration-500 transform  ">
           <img src="../assets/django.png" alt="" class="  w-56 md:mr-80">
         </div>
         
@@ -83,24 +67,24 @@ Django makes it easier to build web pages using Python. </p>
         
         </div>
         </div>
-        <div class="  hover:scale-90 ">
+        <div class="    ">
            
           <h1 class=" text-white text-2xl">The vue</h1> 
   
           <div class=" flex  flex-col md:flex-row justify-center items-center m-5 ">
-        <div class=" transition-all duration-500 transform hover:opacity-90 pt-1 hover:bg-white">
+        <div class=" transition-all duration-500 transform  ">
           <img src="../assets/vuejs.png" alt="" class=" w-60 md:mr-80">
         </div>
           <p class=" ">Vue.js is a popular JavaScript framework for front-end development developed and constantly updated by Evan You and his team. You can use this open-source framework to develop any single-page application or user interface. The design is very flexible and focuses on declarative rendering and component composition. </p>
         
         </div>
         </div>
-         <div class=" pt-3   mt-3  hover:scale-90">
+         <div class=" pt-3   mt-3   ">
           <h1 class=" text-white text-2xl">NodeJs</h1> 
         <div class=" flex  flex-col md:flex-row justify-center items-center m-5 ">  
           
         
-        <div class=" transition-all duration-500 transform hover:opacity-90 pt-1 hover:bg-white">
+        <div class=" transition-all duration-500 transform  ">
           <img src="../assets/nodejs.png" alt="" class="  w-56 md:mr-80">
         </div>
           <p class=" ">Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
@@ -109,11 +93,11 @@ Django makes it easier to build web pages using Python. </p>
         
         </div>
         </div>
-        <div class=" pt-3   mt-3 hover:scale-90">
+        <div class=" pt-3   mt-3  ">
           <h1 class=" text-white text-2xl">Tailwind</h1> 
         <div class=" flex  flex-col md:flex-row justify-center items-center m-5 "> 
         
-        <div class=" transition-all duration-500 transform hover:opacity-90 pt-1 hover:bg-white">
+        <div class=" transition-all duration-500 transform  ">
           <img src="../assets/tailwindcss.png" alt="" class="  w-56 md:mr-80">
         </div>
         
@@ -124,11 +108,11 @@ Django makes it easier to build web pages using Python. </p>
         </div>
         </div>
 
-        <div class=" pt-3   mt-3 hover:scale-90">
+        <div class=" pt-3   mt-3  ">
           <h1 class=" text-white text-2xl">MongoDB</h1> 
         <div class=" flex  flex-col md:flex-row justify-center items-center m-5 "> 
         
-        <div class=" transition-all duration-500 transform hover:opacity-90 pt-1 hover:bg-white">
+        <div class=" transition-all duration-500 transform  ">
           <img src="../assets/mongoDB.png" alt="" class="  w-56 md:mr-80">
         </div>
         
@@ -137,11 +121,11 @@ Django makes it easier to build web pages using Python. </p>
         </div>
         </div>
 
-        <div class=" pt-3   mt-3 hover:scale-90">
+        <div class=" pt-3   mt-3  ">
           <h1 class=" text-white text-2xl">Bootstrap</h1> 
         <div class=" flex  flex-col md:flex-row justify-center items-center m-5 "> 
         
-        <div class=" transition-all duration-500 transform hover:opacity-90 pt-1 hover:bg-white">
+        <div class=" transition-all duration-500 transform  ">
           <img src="../assets/bootstrap.png" alt="" class="  w-56 md:mr-80">
         </div>
         
@@ -168,23 +152,6 @@ Django makes it easier to build web pages using Python. </p>
   </template>
   
   <script> 
-import Swiper from 'swiper';
-
-export default {
-  mounted() {
-    this.initSwiper();
-  },
-  methods: {
-    initSwiper() {
-      const swiper = new Swiper('.swiper-container', {
-        loop: true,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-      });
-    },
-  },
-};
+i 
 
   </script>
