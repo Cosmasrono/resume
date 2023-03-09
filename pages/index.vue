@@ -152,6 +152,6 @@ Django makes it easier to build web pages using Python. </p>
   </template>
   
   <script> 
-i 
+
 
   </script>
