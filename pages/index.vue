@@ -1,153 +1,196 @@
 <template>
- 
+ <main class="">
     
 
 
-      <h1 class=" flex items-center justify-center text-white"> Hello here is cosmas feel free and relax </h1>
+      <h1 class=" text-2xl flex items-center justify-center text-white p-5 m">WELCOME TO <span class=" text-green-600 italic "> C-TECHNOLOGIES</span>  </h1>
       <div class=" text-black text-xl  md:mt-1 md:left top-1 md:ml-2  md:relative  md:flex ">
         <div class=" relative left-14"> 
      <div class=" flex items-center justify-end pr-6 pl-6 px-3 my-4 mx-60 rounded-md border-slate-700  text-white">
-     
-
-  
-      
+    <div class="">
+      <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.webp" alt="">
+    </div>
      </div>
         </div>
       </div>
+      <div class=" flex flex-col ml-16 ">
+        <h1 class=" text-5xl ">About Me</h1>
+        <p> I am a skilled software developer with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, I am able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, I am committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve, I am passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
+        </p>
+      </div>
       
-        
-        <aside class=" md:mt-1 md:w-1/5   md:left top-1 md:ml-2 h-full  md:fixed md:min-h-screen md:flex " aria-label="Sidebar">
-    <div class="  overflow-y-auto py-2 rounded  dark:bg-slate-900  pb-40 mb-20 mt-24">
-     <div class=" flex justify-center items-center mx-auto flex-col gap-y-2">
-     <img src="../assets/prof.png" alt="" class=" flex items-center rounded-full h-30 w-40 ring-4 ring-blue-800  dark:ring-white">
-    <h1 class="  text-blue-900   dark:text-gray-300 font-bold text-4xl  font-mono">Cossi wing</h1>
-    <p class="   dark:text-gray-300 bg-white6 flex justify-center items-center">
-                         I am a software developer,Graphic designer,web developer,
-                         Research Writer/ Tutor with three years of experience hence you can rest assured that I will guarantee you quality, 
-                         top-notch and tailored work.
-                         
-                     </p> 
-                     <button class=" flex items-center justify-center text-white bg-blue-700 flex-col rounded-md px-5 py-3"><a href="sms:254757450716?body=Hello Amohan,,i need your services">Hire me</a></button>
-     </div>
-    </div>
-        </aside>
-        <div class=" pt-3 mt-3 md:flex-row ml-3">
+     
   
-        <div class=" w-4/5 relative z-10 md:left-40 ">
-          <div class=" md:flex-row w-full justify-center items-center md:min-h-screen relative ">
-        
-  
-        <div class="  flex justify-center items-center min-h-screen h-full  left-16 relative md:left-28 top-1 z-10 w-4/5 flex-col">
-        
-            <div class=" pt-3   mt-3  ">
-          <h1 class=" text-white text-2xl">Nuxt.js</h1> 
-        <div class=" flex  flex-col md:flex-row justify-center items-center m-5 "> 
-        
-        <div class=" transition-all duration-500 transform hover:opacity-25 pt-1  ">
-          <img src="../assets/nuxt.png" alt="" class="  w-56 md:mr-80">
-        </div>
-        
-          <p class=" ">Nuxt provides both frontend and backend functionality so you can focus on what matters: Creating your web application.  </p>
-        
-        </div>
-        </div>
-        <div class=" pt-3   mt-3  ">
-          <h1 class=" text-white text-2xl">Django</h1> 
-        <div class=" flex  flex-col md:flex-row justify-center items-center m-5 "> 
-        
-        <div class=" transition-all duration-500 transform  ">
-          <img src="../assets/django.png" alt="" class="  w-56 md:mr-80">
-        </div>
-        
-          <p class=" ">Django is a back-end server side web framework.
+         <div class="  flex flex-col items-center justify-center gap-5  mt-4 pt-3 ml-72 mr-52 bg-white0">
+          <h1>languages am conversant with it</h1>
+          <ul>
+            <ul>
+  <li title="A popular JavaScript framework for building user interfaces.">Vue</li>
+  <li title="A popular front-end framework for building responsive web applications.">Bootstrap</li>
+  <li title="A popular programming language for building web applications.">JavaScript</li>
+  <li title="A popular CSS framework for building responsive web pages.">Tailwind CSS</li>
+  <li title="A popular front-end framework for building web applications.">React</li>
+</ul>
 
-Django is free, open source and written in Python.
+<carousel/>
 
-Django makes it easier to build web pages using Python. </p>
-        
-        </div>
-        </div>
-        <div class="    ">
-           
-          <h1 class=" text-white text-2xl">The vue</h1> 
-  
-          <div class=" flex  flex-col md:flex-row justify-center items-center m-5 ">
-        <div class=" transition-all duration-500 transform  ">
-          <img src="../assets/vuejs.png" alt="" class=" w-60 md:mr-80">
-        </div>
-          <p class=" ">Vue.js is a popular JavaScript framework for front-end development developed and constantly updated by Evan You and his team. You can use this open-source framework to develop any single-page application or user interface. The design is very flexible and focuses on declarative rendering and component composition. </p>
-        
-        </div>
-        </div>
-         <div class=" pt-3   mt-3   ">
-          <h1 class=" text-white text-2xl">NodeJs</h1> 
-        <div class=" flex  flex-col md:flex-row justify-center items-center m-5 ">  
+            </ul>
+     
+
+         </div>
+         <div class=" flex flex-col md:flex-row gap-2 ml-16    ">
           
-        
-        <div class=" transition-all duration-500 transform  ">
-          <img src="../assets/nodejs.png" alt="" class="  w-56 md:mr-80">
-        </div>
-          <p class=" ">Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
-  
-  Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.  </p>
-        
-        </div>
-        </div>
-        <div class=" pt-3   mt-3  ">
-          <h1 class=" text-white text-2xl">Tailwind</h1> 
-        <div class=" flex  flex-col md:flex-row justify-center items-center m-5 "> 
-        
-        <div class=" transition-all duration-500 transform  ">
-          <img src="../assets/tailwindcss.png" alt="" class="  w-56 md:mr-80">
-        </div>
-        
-          <p class=" ">Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.
-  
-  It's fast, flexible, and reliable — with zero-runtime.  </p>
-        
-        </div>
-        </div>
+          <div class="">
+          <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.webp" alt=""
+          class=" max-h-min h-52 w-auto"
+          >
+          <NuxtLink to="https://gray-water-0524d2610.3.azurestaticapps.net/main">
+          <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black  ml-24 ">View</button>
+            </NuxtLink>
+             </div>
 
-        <div class=" pt-3   mt-3  ">
-          <h1 class=" text-white text-2xl">MongoDB</h1> 
-        <div class=" flex  flex-col md:flex-row justify-center items-center m-5 "> 
-        
-        <div class=" transition-all duration-500 transform  ">
-          <img src="../assets/mongoDB.png" alt="" class="  w-56 md:mr-80">
-        </div>
-        
-          <p class=" ">MongoDB is a document database used to build highly available and scalable internet applications. With its flexible schema approach, it's popular with development teams using agile methodologies..  </p>
-        
-        </div>
-        </div>
+           <div class="">
+          <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.webp" alt=""
+          class=" max-h-min h-52 w-auto"
+          >
+          <NuxtLink to="https://gray-water-0524d2610.3.azurestaticapps.net/main">
+          <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black  ml-24 ">View</button>
+            </NuxtLink>
+             </div>
 
-        <div class=" pt-3   mt-3  ">
-          <h1 class=" text-white text-2xl">Bootstrap</h1> 
-        <div class=" flex  flex-col md:flex-row justify-center items-center m-5 "> 
+
+           <div class="">
+          <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.webp" alt=""
+          class=" max-h-min h-52 w-auto"
+          >
+          <NuxtLink to="">
+          <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black  ml-24 ">View</button>
+            </NuxtLink>
+             </div>
+
+
+
+           <div class="">
+          <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.webp" alt=""
+          class=" max-h-min h-52 w-auto"
+          >
+          <NuxtLink to="">
+          <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black  ml-24 ">View</button>
+            </NuxtLink>
+             </div>
+         </div>
         
-        <div class=" transition-all duration-500 transform  ">
-          <img src="../assets/bootstrap.png" alt="" class="  w-56 md:mr-80">
-        </div>
+         <div class=" flex flex-col md:flex-row gap-2 ml-16    ">
+             
+
+          <div class="">
+          <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.webp" alt=""
+          class=" max-h-min h-52 w-auto"
+          >
+        <nuxt-link to="">
+          <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black  ml-24 ">View</button>
         
-          <p class=" ">Bootstrap makes responsive web design a reality. It makes it possible for a web page or app to detect the visitor's screen size and orientation and automatically adapt the display accordingly. The mobile-first approach assumes smartphones, tablets and task-specific mobile apps are employees' primary tools for getting work done. Bootstrap addresses the requirements of those technologies in design and includes UI components, layouts, JavaScript tools and the implementation framework. The software is available precompiled or as source code.</p>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
+                       </nuxt-link>
+
+             </div>
   
-      
-         
-        
-        
-       
+
+
+             <div class="">
+          <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.webp" alt=""
+          class=" max-h-min h-52 w-auto"
+          >
+          <nuxt-link to="">
+          <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black  ml-24 ">View</button>
+            </nuxt-link>
+             </div>
+
+
+
+
+             <div class="">
+          <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.webp" alt=""
+          class=" max-h-min h-52 w-auto"
+          >
+          <nuxt-link to="">
+          <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black  ml-24 ">View</button>
+            </nuxt-link>
+             </div>
+
+
+
+           <div class="">
+          <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.webp" alt=""
+          class=" max-h-min h-52 w-auto"
+          >
+          <nuxt-link to="">
+          <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black  ml-24 ">View</button>
+            </nuxt-link>
+             </div>
+
+ 
+
+
+
+             
+         </div>
+         <div class=" ml-6">
+         <h1>my next journey as developer</h1>
+         <table class=" rounded p-2 border-solid">
+          <tr > 
+            <th class=" text-pink-600"> ACTIVITY</th>
+            <th class=" text-pink-600"> DURATION</th>
+            <th class=" text-pink-600">PROJECT SAMPLE</th>
+          </tr>
+
+          <tr>
+            <td>Mchine learning</td>
+            <td>4 months</td>
+            <td>weather prediction</td>
+          </tr>
+
+
+          <tr>
+            <td>flutter</td>
+            <td>4 months</td>
+            <td>weather prediction</td>
+          </tr>
+
+          <tr>
+            <td>ruby</td>
+            <td>4 months</td>
+            <td>weather prediction</td>
+          </tr>
+
+
+          <tr>
+            <td>flask</td>
+            <td>4 months</td>
+            <td>weather prediction</td>
+          </tr>
+
+
+          <tr>
+            <td>deep learning</td>
+            <td>4 months</td>
+            <td>weather prediction</td>
+          </tr>
+
+          <tr>
+            <td>Mchine learning</td>
+            <td>4 months</td>
+            <td>weather prediction</td>
+          </tr>
+         </table>
+
+
+</div>
 
   <span class=" flex flex-row items-center justify-center gap-5   mt-4 pt-3 ml-72 mr-52 bg-white0">Follow me on 
-                                    <a href="https://github.com/Cosmasrono?tab=repositories"><img src="../assets/github.png"></a>
-                                    <a href="https://www.linkedin.com/in/cosmas-cheruiyot-a95a3122b/"><img src="../assets/l.png"></a>
+       <a href="https://github.com/Cosmasrono?tab=repositories"><img src="../assets/github.png"></a>
+       <a href="https://www.linkedin.com/in/cosmas-cheruiyot-a95a3122b/"><img src="../assets/l.png"></a>
                                    
-                             </span>
+                             </span></main>
   
   </template>
   
@@ -155,3 +198,9 @@ Django makes it easier to build web pages using Python. </p>
 
 
   </script>
+  <style>
+  table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+</style>
