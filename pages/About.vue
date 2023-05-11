@@ -1,6 +1,6 @@
-<template>
+/* <template>
   <main class="">
-     <!-- 
+     
         <aside class=" md:mt-1 md:w-1/5   md:left top-1 md:ml-2 h-full  md:fixed md:min-h-screen md:flex " aria-label="Sidebar">
    <div class="  overflow-y-auto py-2 rounded  dark:bg-slate-900  pb-40 mb-20 mt-24">
      <div class=" flex justify-center items-center mx-auto flex-col gap-y-2">
@@ -121,7 +121,7 @@ Django makes it easier to build web pages using Python. </p>
         </div>
         </div>
         </div>
-   -->
+   
         
   
 
@@ -136,4 +136,4 @@ export default {
 
 <style>
 
-</style>
+</style> */

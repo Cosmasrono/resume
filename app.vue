@@ -16,15 +16,23 @@
 </main>
 </template>
 <script>
- 
+ export default {
+  // ...
+  router: {
+    scrollBehavior(to, from, savedPosition) {
+      if (to.hash) {
+        return {
+          selector: to.hash,
+          behavior: 'smooth'
+        }
+      } else {
+        return { x: 0, y: 0 }
+      }
+    }
+  }
+}
 </script>
 <style>
- /* 
- .bg-image {
-  background-image: url("");  
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-} */
+ 
 
 </style>
