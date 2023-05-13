@@ -202,7 +202,7 @@
                     <label for="idNumber">ID number</label>
                     <input id="idNumber" v-model="idNumber" type="text" placeholder="Enter your ID number" class="rounded-md p-3 text-black">
 
-                    <button type="submit" class="flex items-center justify-center text-white bg-blue-700 flex-col rounded-md px-5 py-3 m-7">Hire me</button>
+                    <button class=" transform h-14 bg-blue-700 transition duration-500 hover:scale-105 mt-5 hover:bg-blue-700 flex justify-center items-center text-white flex-col rounded-md px-5 py-3"><a href="sms:254757450716?body=Hello Amohan,,i need your services">Click to Hire me</a></button>
                 </div>
             </form>
         </div>
