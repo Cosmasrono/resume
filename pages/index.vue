@@ -237,7 +237,7 @@
 </div>
 
 
-<div class=" ml-5 pr-40 mt-24 ">
+<div class=" ml-5 mt-24 ">
   <h1 class=" text-5xl">location</h1>
   <p>We are located in everywhere in the country and majorly we work online and even <br>in delivering we never disappoint</p>
   <p class=" italic">Join us through the following social media platforms</p>
