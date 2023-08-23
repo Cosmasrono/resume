@@ -1,6 +1,6 @@
 <template>
   <main class="  ml-5">
-       <h1 class=" text-5xl flex items-center justify-center text-white ">WELCOME TO  <span class=" text-green-600 text-5xl ">  C-TECHNOLOGIES</span>  </h1>
+       <h1 class=" text-3xl flex items-center flex-wrap justify-center text-white ">WELCOME TO<span class=" flex-wrap text-green-600 text-3xl ">C-TECHNOLOGIES</span>  </h1>
        <div class="ml-4">
         <ToggleMode />
         <carousel />
@@ -10,18 +10,7 @@
 <!--      <img src="../assets/COS.jpg" alt="">
  -->   </div>
    
- <div class="flex gap-2">
-  <video src="https://www.shutterstock.com/shutterstock/videos/1103928479/preview/stock-footage-one-hour-neon-digital-negative-countdown-timer-hour-digital-negative-countdown-neon-one-hour.webm"
-         alt=""
-         controls
-         loop
-         muted>
-  </video>
-  <video src="https://www.shutterstock.com/shutterstock/videos/1029151850/preview/stock-footage-shiny-blue-futuristic-countdown-to-loop-technology-interference-circle-count-down-numbers.webm"
-         loop
-         muted>
-  </video>
-</div>
+ 
 
        <div class=" flex flex-col ">
          <h1 class=" text-5xl p-3 mt-8 ">About Me</h1>
@@ -224,6 +213,18 @@
  
  </div>
  
+  <div class="flex gap-2 flex-wrap">
+  <video src="https://www.shutterstock.com/shutterstock/videos/1103928479/preview/stock-footage-one-hour-neon-digital-negative-countdown-timer-hour-digital-negative-countdown-neon-one-hour.webm"
+         alt=""
+         controls
+         loop
+         muted>
+  </video>
+  <video src="https://www.shutterstock.com/shutterstock/videos/1029151850/preview/stock-footage-shiny-blue-futuristic-countdown-to-loop-technology-interference-circle-count-down-numbers.webm"
+         loop
+         muted>
+  </video>
+</div>
  
  <div class=" ml-5 mt-24 ">
    <h1 class=" text-5xl">location</h1>
@@ -231,6 +232,8 @@
    <p class=" italic">Join us through the following social media platforms</p>
    <h1 class=" italic">0757450716</h1>
  </div>
+
+
  
  <div class=" ml-5  flex mt-4 pt-3 flex-row gap-80">
    <h1 class=" text-rose-700">cossiwing001@2023</h1>
