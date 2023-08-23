@@ -1,15 +1,28 @@
 <template>
   <main class="  ml-5">
-       <h1 class=" text-2xl flex items-center justify-center text-white ">WELCOME <span class=" txt">TO C-TECHNOLOGIES</span>  </h1>
-   <div class="">
-     <img src="../assets/COS.jpg" alt="">
-   </div>
- 
- 
- 
-     
- 
- 
+       <h1 class=" text-5xl flex items-center justify-center text-white ">WELCOME TO  <span class=" text-green-600 text-5xl ">  C-TECHNOLOGIES</span>  </h1>
+       <div class="ml-4">
+        <ToggleMode />
+        <carousel />
+      </div>
+  
+       <div class=" ">
+<!--      <img src="../assets/COS.jpg" alt="">
+ -->   </div>
+   
+ <div class="flex gap-2">
+  <video src="https://www.shutterstock.com/shutterstock/videos/1103928479/preview/stock-footage-one-hour-neon-digital-negative-countdown-timer-hour-digital-negative-countdown-neon-one-hour.webm"
+         alt=""
+         controls
+         loop
+         muted>
+  </video>
+  <video src="https://www.shutterstock.com/shutterstock/videos/1029151850/preview/stock-footage-shiny-blue-futuristic-countdown-to-loop-technology-interference-circle-count-down-numbers.webm"
+         loop
+         muted>
+  </video>
+</div>
+
        <div class=" flex flex-col ">
          <h1 class=" text-5xl p-3 mt-8 ">About Me</h1>
          <p class=" font-bold"> I am a skilled software developer with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, I am able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, I am committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve, I am passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
@@ -130,53 +143,7 @@
  
   
           <div class=" ml-6 mt-20">
-          <h1 class=" text-5xl pb-3">my next journey as developer</h1>
-          <table class=" rounded p-2 border-solid">
-           <tr > 
-             <th class=" text-pink-600"> ACTIVITY</th>
-             <th class=" text-pink-600"> DURATION</th>
-             <th class=" text-pink-600">PROJECT SAMPLE</th>
-           </tr>
- 
-           <tr>
-             <td>Machine learning</td>
-             <td>4 months</td>
-             <td>weather prediction</td>
-           </tr>
- 
- 
-           <tr>
-             <td>Flutter</td>
-             <td>2 months</td>
-             <td>android application</td>
-           </tr>
- 
-           <tr>
-             <td>Ruby</td>
-             <td>2 months</td>
-             <td>weather prediction</td>
-           </tr>
- 
- 
-           <tr>
-             <td>flask</td>
-             <td>1 months</td>
-             <td>coming soon</td>
-           </tr>
- 
- 
-           <tr>
-             <td>deep learning</td>
-             <td>4 months</td>
-             <td>weather prediction</td>
-           </tr>
- 
-           <tr>
-             <td>Machine learning</td>
-             <td>4 months</td>
-             <td>weather prediction</td>
-           </tr>
-          </table>
+          
  </div>
  
  
@@ -211,7 +178,7 @@
      <h1>My CV</h1>
      <a href="../static/cosmas-resume1.pdf" download="" target="_blank" >Download</a>
    </div>
-   
+   <h1 class=" text-2xl">CREDITS</h1>
    <div class="rounded-md flex flex-wrap grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center gap-3 mx-auto container">
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105 ">
@@ -235,21 +202,21 @@
    
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
-     <h1 class=" items-center justify-center flex text-2xl mb-2">CELESINE OCHIENG-Web developer</h1>
+     <h1 class=" items-center justify-center flex text-2xl mb-2">OIC CELESINE OCHIENG-Web developer</h1>
      <img src="" alt="">
      <p> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
-     <h1 class=" items-center justify-center flex text-2xl mb-2">Mulandi evaline-web developer</h1>
+     <h1 class=" items-center justify-center flex text-2xl mb-2">Owen lintech-software developer</h1>
      <img src="" alt="">
      <p> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
-     <h1 class=" items-center justify-center flex text-2xl mb-2">Mulandi evaline-web developer</h1>
+     <h1 class=" items-center justify-center flex text-2xl mb-2">Enock-AI and data scientist</h1>
      <img src="" alt="">
      <p> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
@@ -279,8 +246,12 @@
                               </main>
    
    </template>
+ 
    
    <script>
+  
+ 
+   
  export default {
      data() {
          return {
