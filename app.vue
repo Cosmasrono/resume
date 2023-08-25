@@ -3,11 +3,13 @@
     <div class="text-xl flex gap-4">
       <div class="flex flex-row gap-4 items-start justify-start">
         <!-- Replace the "." with the actual URL of your image -->
-<!--         <img src="./assets/cossi.png" alt="Logo" class="w-20 h-15">
- -->      </div>
+        <img src="./assets/cossi.png" alt="Logo" class="w-20 h-15">
+      </div>
       
       <div class="gap-4 flex items-end justify-end">
         <nuxt-link to="/">Home</nuxt-link>
+        <nuxt-link to="/about">About</nuxt-link>
+        <nuxt-link to="/contact">Contact</nuxt-link>
       </div>
     </div>
 

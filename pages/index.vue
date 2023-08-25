@@ -1,26 +1,76 @@
 <template>
   <main class="  ml-5">
        <h1 class=" text-3xl flex items-center flex-wrap justify-center text-white ">WELCOME TO<span class=" flex-wrap text-green-600 text-3xl ">C-TECHNOLOGIES</span>  </h1>
-       <div class="ml-4">
-        <ToggleMode />
-        <carousel />
+        <div class="ml-4">
+         <div class="video-container flex flex-row gap-6">
+        <video src="../assets/two.mp4" loop muted autoplay class="video-rotate h-60 w-60"  />
+        <video src="../assets/three.mp4" loop muted autoplay class="video-rotate  h-60 w-60" /> 
       </div>
-  
-       <div class=" ">
-<!--      <img src="../assets/COS.jpg" alt="">
- -->   </div>
+        </div>
    
+      
+         <div class="p-8 flex flex-wrap">
+          <div class="flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-8">
+            <div class="flex-1 p-6 rounded shadow">
+              <h class="text-xl font-bold mt-4 text-green-600">Who are we</h>
+              <p class="italic text-gray-600">
+                At C-Technologies, we are not just a software company; we are architects of innovation, crafting tomorrow's digital solutions today. With a passion for technology and a commitment to excellence, we bring your boldest ideas to life through cutting-edge software development.
+              </p>
+              <h2 class="text-xl font-bold mt-4 text-green-600">Our Mission</h2>
+              <p class="mb-4 italic text-gray-600">
+                To empower businesses with software solutions that redefine possibilities, enhance efficiency, and amplify growth. We're not just coding; we're crafting a digital future that transforms industries and shapes a better tomorrow.
+              </p>
+              <p class="mb-4 italic text-gray-600">
+                Join us on this journey of innovation. Discover the limitless potential of technology with C-Technologies by your side.
+              </p>
+              <p>Innovate. Create. Transform with C-Technologies.</p>
+            </div>
+            
+            <div class="flex-1 text-gray-600 p-6 rounded shadow italic">
+              <h2 class="text-xl text-green-600 font-bold">Innovation First</h2>
+              <p class="mb-4">
+                We're not content with the status quo. We continuously explore new technologies and methodologies to keep you ahead of the curve.
+              </p>
+              
+              <h2 class="text-xl text-green-600 font-bold">Collaborative Approach</h2>
+              <p class="mb-4">
+                Your vision drives us. We believe in open communication and collaboration at every stage to ensure your ideas are translated flawlessly into software.
+              </p>
+          
+              <h2 class="text-xl text-green-600 font-bold">Quality Assurance</h2>
+              <p class="mb-4">
+                Excellence is in our DNA. Rigorous testing and quality checks guarantee a final product that exceeds expectations.
+              </p>
+          
+              <h2 class="text-xl font-bold text-green-600">Client-Centric Focus</h2>
+              <p class="mb-4">
+                Your success is our success. We measure our achievements by the impact our solutions bring to your business.
+              </p>
+          
+              <h2 class="text-xl font-bold text-green-600">Diverse Portfolio</h2>
+              <p>
+                From startups to enterprises, our experience spans industries, giving us a holistic perspective to tackle any challenge.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+
  
+    
+  
+     
 
        <div class=" flex flex-col ">
          <h1 class=" text-5xl p-3 mt-8 ">About Me</h1>
-         <p class=" font-bold"> I am a skilled software developer with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, I am able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, I am committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve, I am passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
+         <p class=" font-bold italic text-gray-600 "> I am a skilled software developer with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, I am able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, I am committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve, I am passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
          </p>
        </div>
        
       
    
- 
+       
+  
   <h1 class=" text-5xl p-4">My Projects</h1>
           <div class="  rounded-md  grid  grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center gap-3 mx-auto container">
             
@@ -140,16 +190,17 @@
    
          <div class="  p-3 ml-2">
            <h1 class=" text-5xl "> Services that we offer</h1>
+           <p class=" text-gray-600">
             <li>web developmemt</li>
            <li>Installing Oparating System</li>
            <li>System Maintanance</li>
            <li>System cleaning</li>
            <li>App development</li>
-           
+           </p>
          </div>
  
        <div class="items-start flex justify-start flex-col m-4 mt-24">
-             <h1 class=" text-5xl ">Hey welcome feel free to contact me</h1>
+             <h1 class=" text-5xl "> Hire me</h1>
              <form @submit.prevent="submitForm">
                  <div class="flex items-center justify-center flex-col pb-4">
                      <label for="name">Name</label>
@@ -165,71 +216,62 @@
  
          <div class=" ml-5">
      <h1>My CV</h1>
-     <a href="../static/cosmas-resume1.pdf" download="" target="_blank" >Download</a>
-   </div>
+     <a href="fuzu.pdf" download class="download-button">Download CV</a>
+    </div>
    <h1 class=" text-2xl">CREDITS</h1>
    <div class="rounded-md flex flex-wrap grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center gap-3 mx-auto container">
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105 ">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Nelson Rono -app developer and system audit</h1>
      <img src="" alt="">
-     <p> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Francis mwaniki-Web developer </h1>
      <img src="" alt="">
-     <p> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
  
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Mulandi evaline-web developer</h1>
      <img src="" alt="">
-     <p> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class="text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">OIC CELESINE OCHIENG-Web developer</h1>
      <img src="" alt="">
-     <p> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Owen lintech-software developer</h1>
      <img src="" alt="">
-     <p> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Enock-AI and data scientist</h1>
      <img src="" alt="">
-     <p> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
  </div>
  
-  <div class="flex gap-2 flex-wrap">
-  <video src="https://www.shutterstock.com/shutterstock/videos/1103928479/preview/stock-footage-one-hour-neon-digital-negative-countdown-timer-hour-digital-negative-countdown-neon-one-hour.webm"
-         alt=""
-         controls
-         loop
-         muted>
-  </video>
-  <video src="https://www.shutterstock.com/shutterstock/videos/1029151850/preview/stock-footage-shiny-blue-futuristic-countdown-to-loop-technology-interference-circle-count-down-numbers.webm"
-         loop
-         muted>
-  </video>
-</div>
+  
+ 
+
  
  <div class=" ml-5 mt-24 ">
    <h1 class=" text-5xl">location</h1>
-   <p>We are located in everywhere in the country and majorly we work online and even <br>in delivering we never disappoint</p>
-   <p class=" italic">Join us through the following social media platforms</p>
+   <p class=" text-gray-600">We are located in everywhere in the country and majorly we work online and even <br>in delivering we never disappoint</p>
+   <p class=" italic text-gray-600">Join us through the following social media platforms</p>
    <h1 class=" italic">0757450716</h1>
  </div>
 
@@ -300,5 +342,15 @@
    display: flex;
    justify-content: center;
  }
+
+ .download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
  
  </style>
