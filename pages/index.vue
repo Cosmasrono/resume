@@ -226,6 +226,14 @@
      <img src="" alt="">
      <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
+
+
+   <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
+    <h1 class=" items-center justify-center flex text-2xl mb-2">CELESINE OCHIENG-KEBS OIC </h1>
+    <img src="" alt="">
+    <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+  </div>
+  
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Francis mwaniki-Web developer </h1>
@@ -241,12 +249,6 @@
    </div>
    
  
-   <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
-     <h1 class=" items-center justify-center flex text-2xl mb-2">OIC CELESINE OCHIENG-Web developer</h1>
-     <img src="" alt="">
-     <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
-   </div>
-   
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Owen lintech-software developer</h1>
