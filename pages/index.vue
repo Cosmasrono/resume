@@ -3,8 +3,8 @@
        <h1 class=" text-3xl flex items-center flex-wrap justify-center text-white ">WELCOME TO<span class=" flex-wrap text-green-600 text-3xl ">C-TECHNOLOGIES</span>  </h1>
         <div class="ml-4">
          <div class="video-container flex flex-row gap-6">
-        <video src="../assets/two.mp4" loop muted autoplay class="video-rotate h-60 w-60"  />
-        <video src="../assets/three.mp4" loop muted autoplay class="video-rotate  h-60 w-60" /> 
+        <!-- <video src="../assets/two.mp4" loop muted autoplay class="video-rotate h-60 w-60"  />
+        <video src="../assets/three.mp4" loop muted autoplay class="video-rotate  h-60 w-60" />  -->
       </div>
         </div>
    
@@ -133,9 +133,9 @@
    
                <div class="flex justify-center flex-col  items-center hover:scale-105">
                  <h1>CRUD image system</h1>
-               <img src="../assets/6.png" alt=""
+               <img src="../assets/paypal.png" alt=""
                             class=" max-h-min h-52 w-auto"  >
-                    <nuxt-link to="https://supabase-mocha.vercel.app/">
+                    <nuxt-link to="https://online-paypal-intergration.vercel.app/">
                    <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black ">View</button>
                    </nuxt-link>
                </div>
@@ -190,7 +190,7 @@
    
          <div class="  p-3 ml-2">
            <h1 class=" text-5xl "> Services that we offer</h1>
-           <p class=" text-gray-600">
+           <p class="italic text-gray-600">
             <li>web developmemt</li>
            <li>Installing Oparating System</li>
            <li>System Maintanance</li>
@@ -216,7 +216,7 @@
  
          <div class=" ml-5">
      <h1>My CV</h1>
-     <a href="fuzu.pdf" download class="download-button">Download CV</a>
+     <a href="../static/fuzu.pdf" download class="download-button">Download CV</a>
     </div>
    <h1 class=" text-2xl">CREDITS</h1>
    <div class="rounded-md flex flex-wrap grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center gap-3 mx-auto container">
@@ -224,28 +224,28 @@
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105 ">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Nelson Rono -app developer and system audit</h1>
      <img src="" alt="">
-     <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class="italic  text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
 
 
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
     <h1 class=" items-center justify-center flex text-2xl mb-2">CELESINE OCHIENG-KEBS OIC </h1>
     <img src="" alt="">
-    <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+    <p class="italic  text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
   </div>
   
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Francis mwaniki-Web developer </h1>
      <img src="" alt="">
-     <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class=" italic  text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
  
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Mulandi evaline-web developer</h1>
      <img src="" alt="">
-     <p class="text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class="italic text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
@@ -253,14 +253,14 @@
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Owen lintech-software developer</h1>
      <img src="" alt="">
-     <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class=" italic  text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Enock-AI and data scientist</h1>
      <img src="" alt="">
-     <p class=" text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class="italic  text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
