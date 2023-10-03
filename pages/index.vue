@@ -62,8 +62,8 @@
      
 
        <div class=" flex flex-col ">
-         <h1 class=" text-5xl p-3 mt-8 ">About Me</h1>
-         <p class=" font-bold italic text-gray-600 "> I am a skilled software developer with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, I am able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, I am committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve, I am passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
+         <h1 class=" text-5xl p-3 mt-8 ">About C-Technologies</h1>
+         <p class=" font-bold italic text-gray-600 "> We are skilled software developer with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, We are able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, We are committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve,We are passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
          </p>
        </div>
        
@@ -190,34 +190,28 @@
    
          <div class="  p-3 ml-2">
            <h1 class=" text-5xl "> Services that we offer</h1>
-           <p class="italic text-gray-600">
+           <ul class="italic text-gray-600">
             <li>web developmemt</li>
            <li>Installing Oparating System</li>
            <li>System Maintanance</li>
            <li>System cleaning</li>
            <li>App development</li>
-           </p>
+            <li>System audit</li>
+            <li>System security</li>
+            <li>System backup</li>
+            </ul>
+         
+           
          </div>
  
-       <div class="items-start flex justify-start flex-col m-4 mt-24">
-             <h1 class=" text-5xl "> Hire me</h1>
-             <form @submit.prevent="submitForm">
-                 <div class="flex items-center justify-center flex-col pb-4">
-                     <label for="name">Name</label>
-                     <input id="name" v-model="name" type="text" placeholder="Enter your name" class="rounded-md p-3 text-black">
+      
  
-                     <label for="idNumber">ID number</label>
-                     <input id="idNumber" v-model="idNumber" type="text" placeholder="Enter your ID number" class="rounded-md p-3 text-black">
- 
-                     <button class=" transform h-14 bg-blue-700 transition duration-500 hover:scale-105 mt-5 hover:bg-blue-700 flex justify-center items-center text-white flex-col rounded-md px-5 py-3"><a href="sms:254757450716?body=Hello cosmas wing ,,we need your services">Click to Hire me</a></button>
-                 </div>
-             </form>
-         </div>
- 
-         <div class=" ml-5">
+         <!-- <div class=" ml-5">
      <h1>My CV</h1>
      <a href="../static/fuzu.pdf" download class="download-button">Download CV</a>
-    </div>
+    </div> -->
+
+
    <h1 class=" text-2xl">CREDITS</h1>
    <div class="rounded-md flex flex-wrap grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center gap-3 mx-auto container">
  
@@ -265,6 +259,21 @@
    
  
  </div>
+
+ <div class="items-start flex justify-start flex-col m-4 mt-24">
+  <h1 class=" text-5xl ">Contact Us</h1>
+  <form @submit.prevent="submitForm">
+      <div class="flex items-center justify-center flex-col pb-4">
+          <label for="name">Name</label>
+          <input id="name" v-model="name" type="text" placeholder="Enter your name" class="rounded-md p-3 text-black">
+
+          <label for="idNumber">ID number</label>
+          <input id="idNumber" v-model="idNumber" type="text" placeholder="Enter your ID number" class="rounded-md p-3 text-black">
+
+          <button class=" transform h-14 bg-blue-700 transition duration-500 hover:scale-105 mt-5 hover:bg-blue-700 flex justify-center items-center text-white flex-col rounded-md px-5 py-3"><a href="sms:254757450716?body=Hello cosmas wing ,,we need your services">Click to Contact us</a></button>
+      </div>
+  </form>
+</div>
  
   
  

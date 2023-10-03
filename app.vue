@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-black text-white relative"> 
+  <main class="bg-black text-white relativ text-2xl"> 
     <div class="text-xl flex gap-4">
       <div class="flex flex-row gap-4 items-start justify-start">
         <!-- Replace the "." with the actual URL of your image -->
