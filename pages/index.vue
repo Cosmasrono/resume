@@ -1,10 +1,10 @@
 <template>
   <main class="  ml-5">
+ 
        <h1 class=" text-3xl flex items-center flex-wrap justify-center text-white ">WELCOME TO<span class=" flex-wrap text-green-600 text-3xl ">C-TECHNOLOGIES</span>  </h1>
         <div class="ml-4">
          <div class="video-container flex flex-row gap-6">
-        <!-- <video src="../assets/two.mp4" loop muted autoplay class="video-rotate h-60 w-60"  />
-        <video src="../assets/three.mp4" loop muted autoplay class="video-rotate  h-60 w-60" />  -->
+       
       </div>
         </div>
    
@@ -13,20 +13,20 @@
           <div class="flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-8">
             <div class="flex-1 p-6 rounded shadow">
               <h class="text-xl font-bold mt-4 text-green-600">Who are we</h>
-              <p class="italic text-gray-600">
+              <p class="italic text-gray-100">
                 At C-Technologies, we are not just a software company; we are architects of innovation, crafting tomorrow's digital solutions today. With a passion for technology and a commitment to excellence, we bring your boldest ideas to life through cutting-edge software development.
               </p>
               <h2 class="text-xl font-bold mt-4 text-green-600">Our Mission</h2>
-              <p class="mb-4 italic text-gray-600">
+              <p class="mb-4 italic text-gray-100">
                 To empower businesses with software solutions that redefine possibilities, enhance efficiency, and amplify growth. We're not just coding; we're crafting a digital future that transforms industries and shapes a better tomorrow.
               </p>
-              <p class="mb-4 italic text-gray-600">
+              <p class="mb-4 italic text-gray-100">
                 Join us on this journey of innovation. Discover the limitless potential of technology with C-Technologies by your side.
               </p>
               <p>Innovate. Create. Transform with C-Technologies.</p>
             </div>
             
-            <div class="flex-1 text-gray-600 p-6 rounded shadow italic">
+            <div class="flex-1 text-gray-100 p-6 rounded shadow italic">
               <h2 class="text-xl text-green-600 font-bold">Innovation First</h2>
               <p class="mb-4">
                 We're not content with the status quo. We continuously explore new technologies and methodologies to keep you ahead of the curve.
@@ -63,7 +63,7 @@
 
        <div class=" flex flex-col ">
          <h1 class=" text-5xl p-3 mt-8 ">About C-Technologies</h1>
-         <p class=" font-bold italic text-gray-600 "> We are skilled software developer with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, We are able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, We are committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve,We are passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
+         <p class=" font-bold italic text-gray-100 "> We are skilled software developer with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, We are able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, We are committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve,We are passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
          </p>
        </div>
        
@@ -190,12 +190,11 @@
    
          <div class="  p-3 ml-2">
            <h1 class=" text-5xl "> Services that we offer</h1>
-           <ul class="italic text-gray-600">
+           <ul class="italic text-gray-100">
             <li>web developmemt</li>
            <li>Installing Oparating System</li>
            <li>System Maintanance</li>
-           <li>System cleaning</li>
-           <li>App development</li>
+            <li>App development</li>
             <li>System audit</li>
             <li>System security</li>
             <li>System backup</li>
@@ -218,28 +217,28 @@
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105 ">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Nelson Rono -app developer and system audit</h1>
      <img src="" alt="">
-     <p class="italic  text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class="italic  text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
 
 
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
     <h1 class=" items-center justify-center flex text-2xl mb-2">CELESINE OCHIENG-KEBS OIC </h1>
     <img src="" alt="">
-    <p class="italic  text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+    <p class="italic  text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
   </div>
   
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Francis mwaniki-Web developer </h1>
      <img src="" alt="">
-     <p class=" italic  text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class=" italic  text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
  
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Mulandi evaline-web developer</h1>
      <img src="" alt="">
-     <p class="italic text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class="italic text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
@@ -247,14 +246,14 @@
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Owen lintech-software developer</h1>
      <img src="" alt="">
-     <p class=" italic  text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class=" italic  text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
      <h1 class=" items-center justify-center flex text-2xl mb-2">Enock-AI and data scientist</h1>
      <img src="" alt="">
-     <p class="italic  text-gray-600"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+     <p class="italic  text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
    </div>
    
  
@@ -281,8 +280,8 @@
  
  <div class=" ml-5 mt-24 ">
    <h1 class=" text-5xl">location</h1>
-   <p class=" text-gray-600">We are located in everywhere in the country and majorly we work online and even <br>in delivering we never disappoint</p>
-   <p class=" italic text-gray-600">Join us through the following social media platforms</p>
+   <p class=" text-gray-100">We are located in everywhere in the country and majorly we work online and even <br>in delivering we never disappoint</p>
+   <p class=" italic text-gray-100">Join us through the following social media platforms</p>
    <h1 class=" italic">0757450716</h1>
  </div>
 
@@ -306,7 +305,6 @@
    
    <script>
   
- 
    
  export default {
      data() {
@@ -325,15 +323,13 @@
              } else {
                  // Your code to send the SMS message would go here
              }
-         },
-         methods: {
-       showDescription() {
+         }, showDescription() {
          this.buttonText = this.descriptionText;
        },
        hideDescription() {
          this.buttonText = 'Hover me';
        }
-     }
+      
      }
  }
  
