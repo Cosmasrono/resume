@@ -2,7 +2,8 @@
   <main class="  ml-5">
  
        <h1 class=" text-3xl flex items-center flex-wrap justify-center text-white ">WELCOME TO<span class=" flex-wrap text-green-600 text-3xl ">C-TECHNOLOGIES</span>  </h1>
-        <div class="ml-4">
+     <h2>Find your tech solutions with us</h2>
+       <div class="ml-4">
          <div class="video-container flex flex-row gap-6">
        
       </div>
