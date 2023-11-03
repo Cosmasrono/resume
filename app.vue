@@ -2,8 +2,10 @@
   <main class="bg-black text-white relativ text-2xl"> 
     <div class="text-xl flex gap-4 items-center">
       <!-- Replace the "." with the actual URL of your image -->
-      <img src="./assets/cossi1.png" alt="Logo" class="w-20 h-15">
-
+ 
+      <a href="https://portfolio-blond-six-67.vercel.app/" target="_blank">
+        <img src="./assets/cossi1.png" alt="Logo" class="w-20 h-15">
+      </a>
       <header class=" text-white">
         <nav class="flex items-center justify-between container mx-auto ">
         

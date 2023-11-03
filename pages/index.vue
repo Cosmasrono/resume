@@ -13,6 +13,7 @@
          <div class="p-8 flex flex-wrap">
           <div class="flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-8">
             <div class="flex-1 p-6 rounded shadow">
+              <!-- <h1 class=" text-xl">About us</h1> -->
               <h class="text-xl font-bold mt-4 text-green-600">Who are we</h>
               <p class="italic text-gray-100">
                 At C-Technologies, we are not just a software company; we are architects of innovation, crafting tomorrow's digital solutions today. With a passion for technology and a commitment to excellence, we bring your boldest ideas to life through cutting-edge software development.
@@ -64,7 +65,7 @@
 
        <div class=" flex flex-col ">
          <h1 class=" text-5xl p-3 mt-8 ">About C-Technologies</h1>
-         <p class=" font-bold italic text-gray-100 "> We are skilled software developer with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, We are able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, We are committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve,We are passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
+         <p class=" font-bold italic text-gray-100 "> We are skilled software developers with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, We are able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, We are committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve,We are passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
          </p>
        </div>
        
@@ -72,7 +73,7 @@
    
        
   
-  <h1 class=" text-5xl p-4">My Projects</h1>
+  <h1 class=" text-5xl p-4">samples</h1>
           <div class="  rounded-md  grid  grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center gap-3 mx-auto container">
             
               <div class="flex justify-center flex-col  items-center hover:scale-105">
@@ -97,8 +98,8 @@
  
    
                <div class="flex justify-center flex-col  items-center hover:scale-105">
-                 <h1>Number Gaming system</h1>
-               <img src="../assets/3.png" alt=""
+                 <h1> Automatic Quote Generator</h1>
+               <img src="../assets/one.png" alt=""
                             class=" max-h-min h-52 w-auto"  >
                     <nuxt-link to="https://happy-plant-091f25c10.3.azurestaticapps.net/">
                    <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black ">View</button>
