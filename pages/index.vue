@@ -64,7 +64,7 @@
      
 
        <div class=" flex flex-col ">
-         <h1 class=" text-5xl p-3 mt-8 ">About C-Technologies</h1>
+         <h1 class=" text-green-600 text-5xl p-3 mt-8 ">About C-Technologies</h1>
          <p class=" font-bold italic text-gray-100 "> We are skilled software developers with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, We are able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, We are committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve,We are passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
          </p>
        </div>
@@ -73,7 +73,7 @@
    
        
   
-  <h1 class=" text-5xl p-4">samples</h1>
+  <!-- <h1 class=" text-5xl p-4">samples</h1>
           <div class="  rounded-md  grid  grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center gap-3 mx-auto container">
             
               <div class="flex justify-center flex-col  items-center hover:scale-105">
@@ -182,28 +182,43 @@
                </div>
  
  
-  
+   -->
           <div class=" ml-6 mt-20">
           
  </div>
  
  
+ <div class="flex">
+  <div class="flex flex-row justify-content-center p-3">
+    <div class="flex flex-col">
+      <h1 class="text-green-600 text-5xl">Services that we offer</h1>
+      <ul class="italic text-gray-100">
+        <li>Web development</li>
+        <li>Installing Operating System</li>
+        <li>System Maintenance</li>
+        <li>App development</li>
+        <li>System audit</li>
+        <li>System security</li>
+        <li>System backup</li>
+      </ul>
+    </div>
+
+    <div class="flex justify-center flex-col items-center hover:scale-105">
+      <h1>Online Transport</h1>
+
+      <!-- Rotating Images -->
+      <div class="rotate-container flex-wrap">
+        <img src="../assets/5.png" alt="" class="max-h-min h-52 w-auto rotate-img">
+        <img src="../assets/9.png" alt="" class="max-h-min h-52 w-auto rotate-img">
+        <!-- img src="../assets/3.png" alt="" class="max-h-min h-52 w-auto rotate-img">
+        <img src="../assets/4.png" alt="" class="max-h-min h-52 w-auto rotate-img">< -->
+      </div>
+    </div>
+  </div>
+</div>
+  
  
-   
-         <div class="  p-3 ml-2">
-           <h1 class=" text-5xl "> Services that we offer</h1>
-           <ul class="italic text-gray-100">
-            <li>web developmemt</li>
-           <li>Installing Oparating System</li>
-           <li>System Maintanance</li>
-            <li>App development</li>
-            <li>System audit</li>
-            <li>System security</li>
-            <li>System backup</li>
-            </ul>
-         
-           
-         </div>
+ 
  
       
  
@@ -213,7 +228,7 @@
     </div> -->
 
 
-   <h1 class=" text-2xl">CREDITS</h1>
+   <!-- <h1 class=" text-2xl">CREDITS</h1>
    <div class="rounded-md flex flex-wrap grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center gap-3 mx-auto container">
  
    <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105 ">
@@ -259,10 +274,16 @@
    </div>
    
  
- </div>
+ </div> -->
+
+
+ <h class=" text-green-600 text-5xl">why choose us</h>
+ <p>
+  Why choose C Technologies Company? At C Technologies, we pride ourselves on our comprehensive range of services that cater to your every technological need. Our team of experts excels in various domains, from web development to system maintenance, ensuring that we can support you at every stage of your technology journey. <br>When you choose C Technologies, you're selecting a partner that can handle everything from installing operating systems to developing cutting-edge applications.
+ </p>
 
  <div class="items-start flex justify-start flex-col m-4 mt-24">
-  <h1 class=" text-5xl ">Contact Us</h1>
+  <h1 class="  text-green-600 text-5xl ">Contact Us</h1>
   <form @submit.prevent="submitForm">
       <div class="flex items-center justify-center flex-col pb-4">
           <label for="name">Name</label>
@@ -281,12 +302,25 @@
 
  
  <div class=" ml-5 mt-24 ">
-   <h1 class=" text-5xl">location</h1>
+   <h1 class=" text-green-600 text-5xl">location</h1>
    <p class=" text-gray-100">We are located in everywhere in the country and majorly we work online and even <br>in delivering we never disappoint</p>
    <p class=" italic text-gray-100">Join us through the following social media platforms</p>
    <h1 class=" italic">0757450716</h1>
  </div>
 
+
+
+ <!-- reviews -->
+ <div>
+  <h2 class=" text-green-600 text-5xl ">Customer Reviews</h2>
+  <ul>
+    <li class=" m-3 p-3" v-for="review in reviews" :key="review.id">
+      <strong>{{ review.name }}</strong>
+      <p>{{ review.review }}</p>
+      <p>Rating: {{ review.rating }}/5</p>
+    </li>
+  </ul>
+</div>
 
  
  <div class=" ml-5  flex mt-4 pt-3 flex-row gap-80">
@@ -298,7 +332,17 @@
         <img src="https://img.icons8.com/?size=1x&id=xuvGCOXi8Wyg&format=png"></a>
                                     
                               </span> 
+
+
+
+
+                              
                               </div>
+
+
+                              <!-- reviews -->
+
+                            
                               
                               </main>
    
@@ -311,11 +355,44 @@
  export default {
      data() {
          return {
-           pdfLink: 'https://www.example.com/myfile.pdf',
-             name: '',
-             idNumber: '',
-             buttonText: 'Hover me',
-             descriptionText: 'This button will perform an action when clicked'
+          reviews: [
+        {
+          id: 1,
+          name: 'Amohan company',
+          review: 'Excellent service! I\'m very satisfied with the products.',
+          rating: 5,
+        },
+        {
+          id: 2,
+          name: 'cosmaswing technologies',
+          review: 'Fast delivery and high-quality items. Will order again!',
+          rating: 4,
+        },
+        {
+          id: 3,
+          name: 'Nelson',
+          review: 'Fast delivery and high-quality items. Will order again!',
+          rating: 5,
+        },
+
+        {
+          id: 4,
+          name: 'frank',
+          review: 'Fast delivery and high-quality items. Will order again!',
+          rating: 4,
+        },
+
+        {
+          id: 5,
+          name: 'enock',
+          review: 'Fast delivery and high-quality items. Will order again!',
+          rating: 5,
+        }
+
+        
+
+        
+      ],
          }
      },
      methods: {
@@ -359,6 +436,30 @@
   color: white;
   text-decoration: none;
   border-radius: 5px;
+}
+
+.slideshow-container {
+  position: relative;
+  height: 200px; /* Adjust the height as needed */
+}
+
+.rotate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rotate-img {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
  
