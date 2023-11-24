@@ -3,6 +3,7 @@
     <div class="text-xl flex gap-4 items-center">
 
       <!-- //script adsense -->
+      <meta name="google-adsense-account" content="ca-pub-4093231546187103">
      
       <a href="https://portfolio-blond-six-67.vercel.app/" target="_blank">
         <img src="./assets/cossi1.png" alt="Logo" class="w-20 h-15">
