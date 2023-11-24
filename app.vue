@@ -1,8 +1,9 @@
 <template>
   <main class="bg-black text-white relativ text-2xl"> 
     <div class="text-xl flex gap-4 items-center">
-      <!-- Replace the "." with the actual URL of your image -->
- 
+
+      <!-- //script adsense -->
+     
       <a href="https://portfolio-blond-six-67.vercel.app/" target="_blank">
         <img src="./assets/cossi1.png" alt="Logo" class="w-20 h-15">
       </a>
@@ -75,18 +76,25 @@
 </template>
 
 <script>
-   export default {
-    data() {
-      return {
-        mobileMenuOpen: false,
-      };
+export default {
+  data() {
+    return {
+      mobileMenuOpen: false,
+    };
+  },
+  methods: {
+    toggleMobileMenu() {
+      this.mobileMenuOpen = !this.mobileMenuOpen;
     },
-    methods: {
-      toggleMobileMenu() {
-        this.mobileMenuOpen = !this.mobileMenuOpen;
-      },
-    },
-  };
+  },
+  mounted() {
+    let script = document.createElement('script');
+    script.setAttribute('src', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4093231546187103');
+    script.setAttribute('async', '');
+    script.setAttribute('crossorigin', 'anonymous');
+    document.head.appendChild(script);
+  },
+};
 </script>
 
 <style>
