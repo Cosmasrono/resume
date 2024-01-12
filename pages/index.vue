@@ -1,467 +1,331 @@
 <template>
-  <main class="  ml-5">
- 
-       <h1 class=" text-3xl flex items-center flex-wrap justify-center text-white ">WELCOME TO<span class=" flex-wrap text-green-600 text-3xl ">C-TECHNOLOGIES</span>  </h1>
-     <h2>Find your tech solutions with us</h2>
-       <div class="ml-4">
-         <div class="video-container flex flex-row gap-6">
-       
-      </div>
-        </div>
-   
-      
-         <div class="p-8 flex flex-wrap">
-          <div class="flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-8">
-            <div class="flex-1 p-6 rounded shadow">
-              <!-- <h1 class=" text-xl">About us</h1> -->
-              <h class="text-xl font-bold mt-4 text-green-600">Who are we</h>
-              <p class="italic text-gray-100">
-                At C-Technologies, we are not just a software company; we are architects of innovation, crafting tomorrow's digital solutions today. With a passion for technology and a commitment to excellence, we bring your boldest ideas to life through cutting-edge software development.
-              </p>
-              <h2 class="text-xl font-bold mt-4 text-green-600">Our Mission</h2>
-              <p class="mb-4 italic text-gray-100">
-                To empower businesses with software solutions that redefine possibilities, enhance efficiency, and amplify growth. We're not just coding; we're crafting a digital future that transforms industries and shapes a better tomorrow.
-              </p>
-              <p class="mb-4 italic text-gray-100">
-                Join us on this journey of innovation. Discover the limitless potential of technology with C-Technologies by your side.
-              </p>
-              <p>Innovate. Create. Transform with C-Technologies.</p>
-            </div>
-            
-            <div class="flex-1 text-gray-100 p-6 rounded shadow italic">
-              <h2 class="text-xl text-green-600 font-bold">Innovation First</h2>
-              <p class="mb-4">
-                We're not content with the status quo. We continuously explore new technologies and methodologies to keep you ahead of the curve.
-              </p>
-              
-              <h2 class="text-xl text-green-600 font-bold">Collaborative Approach</h2>
-              <p class="mb-4">
-                Your vision drives us. We believe in open communication and collaboration at every stage to ensure your ideas are translated flawlessly into software.
-              </p>
-          
-              <h2 class="text-xl text-green-600 font-bold">Quality Assurance</h2>
-              <p class="mb-4">
-                Excellence is in our DNA. Rigorous testing and quality checks guarantee a final product that exceeds expectations.
-              </p>
-          
-              <h2 class="text-xl font-bold text-green-600">Client-Centric Focus</h2>
-              <p class="mb-4">
-                Your success is our success. We measure our achievements by the impact our solutions bring to your business.
-              </p>
-          
-              <h2 class="text-xl font-bold text-green-600">Diverse Portfolio</h2>
-              <p>
-                From startups to enterprises, our experience spans industries, giving us a holistic perspective to tackle any challenge.
-              </p>
-            </div>
-          </div>
-        </div>
-        
+    <div>
 
- 
+
+    <div>
+    <!-- text-4xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text font-extrabold text-transparent tracking-tight sm:text-6xl -->
+    <div class="bg-green-800 text-white py-20 text-center">
+      <h1 class="text-3xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text font-extrabold text-transparent tracking-tight sm:text-6xl uppercase" data-aos="zoom-out-up">Welcome to  Wing Technologies</h1>
+      <p class="text-lg mb-8" data-aos="zoom-out-up">Discover amazing things here.</p>
+      <img src="https://images.pexels.com/photos/11001424/pexels-photo-11001424.jpeg" alt="Hero Image" class="mx-auto rounded-full w-48 h-48 object-cover shadow-lg mb-8" />
+      <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get Started</a>
+    </div>
+
+    <!-- Card Section -->
+    <div class="container mx-auto  flex flex-wrap justify-center bg-green-800">
+      <div v-for="(card, index) in cardItems" :key="index" class=" rounded-lg shadow-lg p-6 m-4 w-64" data-aos="zoom-out-up">
+        <img :src="card.imageUrl" :alt="'Card Image ' + index" class="w-full h-32 object-cover mb-4" />
+        <h2 class="text-xl font-bold mb-2">{{ card.title }}</h2>
+        <p>{{ card.description }}</p>
+      </div>
+    </div>
+
+
+
+    <div class="bg-green-800 text-white py-20 text-center" data-aos="zoom-out-up">
+      <h1 class="text-4xl font-bold mb-6" data-aos="zoom-out-up">Welcome to Wing Innovations: Pioneering Tomorrow's Breakthroughs</h1>
+      <p class="text-lg mb-8" data-aos="zoom-out-up">Step into a realm of groundbreaking innovations with Wing Innovations. Our commitment goes beyond the ordinary, as we harness the power of cutting-edge technologies to redefine industries and create a future where possibilities are limitless.</p>
     
-  
-     
-
-       <div class=" flex flex-col ">
-         <h1 class=" text-green-600 text-5xl p-3 mt-8 ">About C-Technologies</h1>
-         <p class=" font-bold italic text-gray-100 "> We are skilled software developers with experience using a range of cutting-edge technologies, including Python, Vue, Nuxt, Django, Node.js, Tailwind CSS, Supabase, and MongoDB. With expertise in both front-end and back-end development, We are able to create dynamic and responsive applications that are both aesthetically pleasing and functional. Whether working independently or collaboratively as part of a team, We are committed to delivering high-quality work that meets the needs of clients and end-users alike. Always striving to improve my skills and stay ahead of the curve,We are passionate about learning new technologies and exploring innovative ways to tackle complex technical challenges.
-         </p>
-       </div>
-       
-      
-   
-       
-  
-  <!-- <h1 class=" text-5xl p-4">samples</h1>
-          <div class="  rounded-md  grid  grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center gap-3 mx-auto container">
-            
-              <div class="flex justify-center flex-col  items-center hover:scale-105">
-               <h1>online transport</h1>
-               <img src="../assets/1.png" alt=""
-                            class=" max-h-min h-52 w-auto"  >
-                    <nuxt-link to="http://accomodation-one.vercel.app/">
-                   <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black ">View</button>
-                   </nuxt-link>
-               </div>
- 
-                 
-              <div class="flex justify-center flex-col  items-center hover:scale-105">
-               <h1>kabarak university chatbot</h1>
-               <img src="../assets/2.png" alt=""
-                            class=" max-h-min h-52 w-auto"  >
-                    <nuxt-link to="https://gray-water-0524d2610.3.azurestaticapps.net/main">
-                   <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black ">View</button>
-                   </nuxt-link>
-               </div>
- 
- 
-   
-               <div class="flex justify-center flex-col  items-center hover:scale-105">
-                 <h1> Automatic Quote Generator</h1>
-               <img src="../assets/one.png" alt=""
-                            class=" max-h-min h-52 w-auto"  >
-                    <nuxt-link to="https://happy-plant-091f25c10.3.azurestaticapps.net/">
-                   <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black ">View</button>
-                   </nuxt-link>
-               </div>
- 
- 
- 
-   
-               <div class="flex justify-center flex-col  items-center hover:scale-105">
-                 <h1>Online diary</h1>
-               <img src="../assets/4.png" alt=""
-                            class=" max-h-min h-52 w-auto"  >
-                    <nuxt-link to="https://cosmasrono.github.io/timeline/">
-                   <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black ">View</button>
-                   </nuxt-link>
-               </div>
- 
- 
- 
-   
-               <div class="flex justify-center flex-col  items-center hover:scale-105">
-                 <h1>CRUD image system</h1>
-               <img src="../assets/5.png" alt=""
-                            class=" max-h-min h-52 w-auto"  >
-                    <nuxt-link to="https://supabase-mocha.vercel.app/">
-                   <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black ">View</button>
-                   </nuxt-link>
-               </div>
- 
- 
- 
-   
-               <div class="flex justify-center flex-col  items-center hover:scale-105">
-                 <h1>CRUD image system</h1>
-               <img src="../assets/paypal.png" alt=""
-                            class=" max-h-min h-52 w-auto"  >
-                    <nuxt-link to="https://online-paypal-intergration.vercel.app/">
-                   <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black ">View</button>
-                   </nuxt-link>
-               </div>
- 
- 
- 
-   
-               <div class="flex justify-center flex-col  items-center hover:scale-105">
-                 <h1>Online map</h1>
-               <img src="../assets/7.png" alt=""
-                            class=" max-h-min h-52 w-auto"  >
-                    <nuxt-link to="https://live-location-map.netlify.app/">
-                   <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black ">View</button>
-                   </nuxt-link>
-               </div>
- 
- 
- 
- 
-   
-               <div class="flex justify-center flex-col  items-center hover:scale-105">
-                 <h1>crud system</h1>
-               <img src="../assets/8.png" alt=""
-                            class=" max-h-min h-52 w-auto"  >
-                    <nuxt-link to="http://todo-coral-nine.vercel.app/">
-                   <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black ">View</button>
-                   </nuxt-link>
-               </div>
- 
- 
- 
- 
-   
-               <div class="flex justify-center flex-col  items-center hover:scale-105">
-                 <h1>online E-commerce</h1>
-               <img src="../assets/9.png" alt=""
-                            class=" max-h-min h-52 w-auto"  >
-                    <nuxt-link to="http://vue-add-cart.vercel.app/">
-                   <button type="submit" class=" rounded-md p-3 m-3 bg-white text-black ">View</button>
-                   </nuxt-link>
-               </div>
-               </div>
- 
- 
-   -->
-          <div class=" ml-6 mt-20">
-          
- </div>
- 
- 
- <div class="flex">
-  <div class="flex flex-row justify-content-center p-3">
-    <div class="flex flex-col">
-      <h1 class="text-green-600 text-5xl">Services that we offer</h1>
-      <ul class="italic text-gray-100">
-        <li>Web development</li>
-        <li>Installing Operating System</li>
-        <li>System Maintenance</li>
-        <li>App development</li>
-        <li>System audit</li>
-        <li>System security</li>
-        <li>System backup</li>
-      </ul>
+     <!-- Image Grid Section -->
+     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 flex-wrap mx-auto gap-4 mb-8 shadow-black" data-aos="zoom-out-up">
+      <!-- Image 1 -->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img src="https://images.pexels.com/photos/3290378/pexels-photo-3290378.jpeg" alt="Wing Image 4" class="w-full h-48 object-cover">
+        <div class="px-6 py-4 text-white">
+          <p class="font-bold text-xl mb-2">Human-Machine Interaction</p>
+          <p class="text-white text-base">Explore the next frontier with immersive virtual reality and augmented reality platforms.</p>
+        </div>
+      </div>
+    
+      <!-- Image 2 -->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img src="https://images.pexels.com/photos/3290378/pexels-photo-3290378.jpeg" alt="Wing Image 5" class="w-full h-48 object-cover">
+        <div class="px-6 py-4 text-white">
+          <p class="font-bold text-xl mb-2">Innovative Solutions</p>
+          <p class="text-white text-base">Constantly pushing boundaries to create unparalleled experiences and groundbreaking advancements.</p>
+        </div>
+      </div>
+    
+      <!-- Image 3 -->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img src="https://images.pexels.com/photos/4100878/pexels-photo-4100878.jpeg" alt="Wing Image 6" class="w-full h-48 object-cover">
+        <div class="px-6 py-4 text-white">
+          <p class="font-bold text-xl mb-2">Cutting-Edge Technology</p>
+          <p class="text-white text-base">Stay at the forefront of technology with Wing Innovations' commitment to excellence and innovation.</p>
+        </div>
+      </div>
     </div>
+    
+    <!-- Image Grid Section 2 -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 mb-8 shadow-transparent" data-aos="zoom-out-up">
+      <!-- Image 4 -->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img src="https://images.pexels.com/photos/1231265/pexels-photo-1231265.jpeg" alt="Wing Image 7" class="w-full h-48 object-cover">
+        <div class="px-6 py-4 text-white">
+          <p class="font-bold text-xl mb-2">Artificial Intelligence</p>
+          <p class="text-white text-base">Unlock the potential of AI to revolutionize industries and enhance everyday experiences.</p>
+        </div>
+      </div>
+    
+      <!-- Image 5 -->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img src="https://images.pexels.com/photos/3290378/pexels-photo-3290378.jpeg" alt="Wing Image 8" class="w-full h-48 object-cover">
+        <div class="px-6 py-4 text-white">
+          <p class="font-bold text-xl mb-2">Data Security</p>
+          <p class="text-white text-base">Ensuring the highest standards of data security to protect the digital landscape.</p>
+        </div>
+      </div>
+    
+      <!-- Image 6 -->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img src="https://images.pexels.com/photos/34153/pexels-photo.jpg" alt="Wing Image 9" class="w-full h-48 object-cover">
+        <div class="px-6 py-4 text-white">
+          <p class="font-bold text-xl mb-2">Space Exploration</p>
+          <p class="text-white text-base">Venture into the cosmos with cutting-edge technology to explore new frontiers.</p>
+        </div>
+      </div>
+    </div>
+    
+<!-- Services Offering Section -->
+<div class="services-container flex flex-wrap shadow-inner gap-2" data-aos="fade-up">
 
-    <div class="flex justify-center flex-col items-center hover:scale-105">
-      <h1>Online Transport</h1>
+  <!-- Service 1: System Maintenance -->
+  <div class="service-card mb-8">
+    <img src="https://thumbs.dreamstime.com/b/laptop-repair-maintenance-concept-modern-open-computer-blank-screen-small-hammer-screwdriver-spanner-82762587.jpg?w=768" 
+      alt="System Maintenance Image" class="w-full h-48 object-cover">
+    <div class="service-details">
+      <h2 class="text-xl font-bold mb-2 text-white">System Maintenance</h2>
+      <p class="text-white text-base">Ensure the optimal performance of your systems with our expert maintenance services. Our dedicated team provides proactive monitoring, regular updates, and swift issue resolution to keep your systems running smoothly.</p>
+      <a href="#" class="text-blue-500 hover:underline">Learn More</a>
+    </div>
+  </div>
 
-      <!-- Rotating Images -->
-      <div class="rotate-container flex-wrap">
-        <img src="../assets/5.png" alt="" class="max-h-min h-52 w-auto rotate-img">
-        <img src="../assets/9.png" alt="" class="max-h-min h-52 w-auto rotate-img">
-        <!-- img src="../assets/3.png" alt="" class="max-h-min h-52 w-auto rotate-img">
-        <img src="../assets/4.png" alt="" class="max-h-min h-52 w-auto rotate-img">< -->
+  <!-- Service 2: Networking Solutions -->
+  <div class="service-card mb-8">
+    <img src="https://thumbs.dreamstime.com/b/laptop-repair-tools-technical-support-photo-48954177.jpg?w=768" 
+      alt="Networking Solutions Image" class="w-full h-48 object-cover">
+    <div class="service-details">
+      <h2 class="text-xl font-bold mb-2 text-white">Networking Solutions</h2>
+      <p class="text-white text-base">Create a robust network infrastructure tailored to your business needs and requirements. Our networking solutions include design, implementation, and optimization services to ensure a seamless and secure network environment.</p>
+      <a href="#" class="text-blue-500 hover:underline">Learn More</a>
+    </div>
+  </div>
+
+  <!-- Service 3: Another System Maintenance -->
+  <div class="service-card mb-8">
+    <img src="https://thumbs.dreamstime.com/b/laptop-repair-maintenance-concept-modern-open-computer-blank-screen-small-hammer-screwdriver-spanner-82762587.jpg?w=768" 
+      alt="System Maintenance Image" class="w-full h-48 object-cover">
+    <div class="service-details">
+      <h2 class="text-xl font-bold mb-2 text-white">System Maintenance</h2>
+      <p class="text-white text-base">Ensure the optimal performance of your systems with our expert maintenance services. Our dedicated team provides proactive monitoring, regular updates, and swift issue resolution to keep your systems running smoothly.</p>
+      <a href="#" class="text-blue-500 hover:underline">Learn More</a>
+    </div>
+  </div>
+
+</div>
+
+</div>
+<div class="main-container">
+  <div class="card-container">
+    <div class="card">
+      <div class="card-header">
+        <h2>Wing Innovations</h2>
+        <p class="sub-heading">Transforming Tomorrow</p>
+      </div>
+
+      <div class="card-body">
+        <p><strong>Explore the Future with Us</strong></p>
+
+        <ul>
+          <li>🚁 <strong>AI-Powered Drones:</strong> Revolutionizing logistics and transportation, our autonomous systems navigate complex environments, delivering packages and redefining connectivity.</li>
+
+          <li>☀️ <strong>Sustainable Energy Solutions:</strong> From advanced solar technologies to eco-friendly power storage, Wing Innovations is dedicated to creating an environmentally conscious future, where clean energy powers our world.</li>
+
+          <li>🕶️ <strong>Immersive XR Platforms:</strong> Step into the next frontier of human-machine interaction with our virtual reality and augmented reality experiences. From interactive education to cutting-edge entertainment, we bridge the digital and physical worlds.</li>
+        </ul>
+      </div>
+
+      <div class="card-footer">
+        <p>Discover the synergy of artificial intelligence and robotics at Wing Innovations, where innovation takes flight and transforms the way we live. Join us in shaping tomorrow's possibilities.</p>
       </div>
     </div>
   </div>
-</div>
-  
- 
- 
- 
-      
- 
-         <!-- <div class=" ml-5">
-     <h1>My CV</h1>
-     <a href="../static/fuzu.pdf" download class="download-button">Download CV</a>
-    </div> -->
 
-
-   <!-- <h1 class=" text-2xl">CREDITS</h1>
-   <div class="rounded-md flex flex-wrap grid-rows-3 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center gap-3 mx-auto container">
- 
-   <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105 ">
-     <h1 class=" items-center justify-center flex text-2xl mb-2">Nelson Rono -app developer and system audit</h1>
-     <img src="" alt="">
-     <p class="italic  text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
-   </div>
-
-
-   <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
-    <h1 class=" items-center justify-center flex text-2xl mb-2">CELESINE OCHIENG-KEBS OIC </h1>
-    <img src="" alt="">
-    <p class="italic  text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
+  <div class="cta-button">
+    <a href="#" class="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded">Explore Our Innovations</a>
   </div>
-  
- 
-   <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
-     <h1 class=" items-center justify-center flex text-2xl mb-2">Francis mwaniki-Web developer </h1>
-     <img src="" alt="">
-     <p class=" italic  text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
-   </div>
- 
- 
-   <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
-     <h1 class=" items-center justify-center flex text-2xl mb-2">Mulandi evaline-web developer</h1>
-     <img src="" alt="">
-     <p class="italic text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
-   </div>
-   
- 
- 
-   <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
-     <h1 class=" items-center justify-center flex text-2xl mb-2">Owen lintech-software developer</h1>
-     <img src="" alt="">
-     <p class=" italic  text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
-   </div>
-   
- 
-   <div class=" rounded-md bg-slate-900 m-5 p-7 hover:scale-105">
-     <h1 class=" items-center justify-center flex text-2xl mb-2">Enock-AI and data scientist</h1>
-     <img src="" alt="">
-     <p class="italic  text-gray-100"> i want to thank above named person for personally <br>building and motivating me towards achievement</p>
-   </div>
-   
- 
- </div> -->
+</div>
 
-
- <h class=" text-green-600 text-5xl">why choose us</h>
- <p>
-  Why choose C Technologies Company? At C Technologies, we pride ourselves on our comprehensive range of services that cater to your every technological need. Our team of experts excels in various domains, from web development to system maintenance, ensuring that we can support you at every stage of your technology journey. <br>When you choose C Technologies, you're selecting a partner that can handle everything from installing operating systems to developing cutting-edge applications.
- </p>
-
- <div class="items-start flex justify-start flex-col m-4 mt-24">
-  <h1 class="  text-green-600 text-5xl ">Contact Us</h1>
-  <form @submit.prevent="submitForm">
-      <div class="flex items-center justify-center flex-col pb-4">
-          <label for="name">Name</label>
-          <input id="name" v-model="name" type="text" placeholder="Enter your name" class="rounded-md p-3 text-black">
-
-          <label for="idNumber">ID number</label>
-          <input id="idNumber" v-model="idNumber" type="text" placeholder="Enter your ID number" class="rounded-md p-3 text-black">
-
-          <button class=" transform h-14 bg-blue-700 transition duration-500 hover:scale-105 mt-5 hover:bg-blue-700 flex justify-center items-center text-white flex-col rounded-md px-5 py-3"><a href="sms:254757450716?body=Hello cosmas wing ,,we need your services">Click to Contact us</a></button>
       </div>
-  </form>
-</div>
- 
-  
- 
+      
+    
+    <!--
+// v0 by Vercel.
+// https://v0.dev/t/5eLjBi7za2v
+-->
+<div class="border text-card-foreground mx-auto max-w-md p-8 bg-green shadow-lg rounded-lg" data-v0-t="card"><div class="flex flex-col space-y-1.5 p-6"><h3 class="tracking-tight text-2xl font-bold text-center">Contact Us</h3><p class="text-sm text-gray-500 text-center">
+  Please fill out the form below and we will get back to you as soon as possible.
+</p></div><div class="p-6"><form class="space-y-4"><div class="grid grid-cols-2 gap-4"><div class="space-y-2"><label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="first-name">First name</label><input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" id="first-name" placeholder="Enter your first name"></div><div class="space-y-2"><label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="last-name">Last name</label><input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" id="last-name" placeholder="Enter your last name"></div></div><div class="space-y-2"><label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="email">Email</label><input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" id="email" placeholder="Enter your email" type="email"></div><div class="space-y-2"><label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="message">Message</label><textarea class="flex w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 min-h-[100px]" id="message" placeholder="Enter your message"></textarea></div></form></div><div class="items-center p-6 flex justify-end"><button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 py-2 bg-blue-500 text-white">Submit</button></div></div>
 
  
- <div class=" ml-5 mt-24 ">
-   <h1 class=" text-green-600 text-5xl">location</h1>
-   <p class=" text-gray-100">We are located in everywhere in the country and majorly we work online and even <br>in delivering we never disappoint</p>
-   <p class=" italic text-gray-100">Join us through the following social media platforms</p>
-   <h1 class=" italic">0757450716</h1>
- </div>
-
-
-
- <!-- reviews -->
- <div>
-  <h2 class=" text-green-600 text-5xl ">Customer Reviews</h2>
-  <ul>
-    <li class=" m-3 p-3" v-for="review in reviews" :key="review.id">
-      <strong>{{ review.name }}</strong>
-      <p>{{ review.review }}</p>
-      <p>Rating: {{ review.rating }}/5</p>
-    </li>
-  </ul>
-</div>
-
- 
- <div class=" ml-5  flex mt-4 pt-3 flex-row gap-80">
-   <h1 class=" text-rose-700">cossiwing001@2023</h1>
-    <span class="  flex items-end justify-end">
-        <a href="https://github.com/Cosmasrono?tab=repositories">
-        <img src="https://img.icons8.com/?size=1x&id=AZOZNnY73haj&format=png"></a>
-        <a href="https://www.linkedin.com/in/cosmas-cheruiyot-a95a3122b/">
-        <img src="https://img.icons8.com/?size=1x&id=xuvGCOXi8Wyg&format=png"></a>
-                                    
-                              </span> 
-
-
-1.0
-1
-
-                              
-                              </div>
-
-
-                              <!-- reviews -->
-
-                            
-                              
-                              </main>
+<section class="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-100 dark:bg-gray-800"><div class="container px-4 md:px-6"><div class="flex flex-col items-center space-y-4 text-center"><div class="space-y-2"><h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 dark:text-gray-100">
+  Welcome to Our Community
+</h1><p class="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+  Join us today and be part of the change you want to see in the world.
+</p></div><div class="w-full max-w-sm space-y-2"><form class="flex space-x-2"><input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 max-w-lg flex-1" placeholder="Enter your email" type="email"><button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2" type="submit">Join Now</button></form><p class="text-xs text-gray-500 dark:text-gray-400">
+  Sign up to get notified about our latest updates and events. <a class="underline underline-offset-2" href="#">
+    Terms &amp; Conditions
+  </a></p></div></div></div></section>
+  </div>
    
-   </template>
+
+</template>
+
+<script >
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
  
-   
-   <script>
-  
-   
- export default {
-     data() {
-         return {
-          reviews: [
+export default {
+  data() {
+    return {
+      cardItems: [
         {
-          id: 1,
-          name: 'Amohan company',
-          review: 'Excellent service! I\'m very satisfied with the products.',
-          rating: 5,
+          title: 'Card 1',
+          description: 'Description for Card 1',
+          imageUrl: 'https://images.pexels.com/photos/18254694/pexels-photo-18254694/free-photo-of-man-with-suitcase-in-front-of-modern-building-in-baku-in-black-and-white.jpeg'
         },
         {
-          id: 2,
-          name: 'cosmaswing technologies',
-          review: 'Fast delivery and high-quality items. Will order again!',
-          rating: 4,
+          title: 'Card 2',
+          description: 'Description for Card 2',
+          imageUrl: 'https://images.pexels.com/photos/11001424/pexels-photo-11001424.jpeg'
         },
         {
-          id: 3,
-          name: 'Nelson',
-          review: 'Fast delivery and high-quality items. Will order again!',
-          rating: 5,
+          title: 'Card 3',
+          description: 'Description for Card 3',
+          imageUrl: 'https://images.pexels.com/photos/18357062/pexels-photo-18357062/free-photo-of-halves-of-figs.jpeg'
         },
-
         {
-          id: 4,
-          name: 'frank',
-          review: 'Fast delivery and high-quality items. Will order again!',
-          rating: 4,
+          title: 'Card 4',
+          description: 'Description for Card 1',
+          imageUrl: 'https://images.pexels.com/photos/18254694/pexels-photo-18254694/free-photo-of-man-with-suitcase-in-front-of-modern-building-in-baku-in-black-and-white.jpeg'
         },
-
         {
-          id: 5,
-          name: 'enock',
-          review: 'Fast delivery and high-quality items. Will order again!',
-          rating: 5,
+          title: 'Card 5',
+          description: 'Description for Card 2',
+          imageUrl: 'https://images.pexels.com/photos/11001424/pexels-photo-11001424.jpeg'
+        },
+        {
+          title: 'Card 6',
+          description: 'Description for Card 3',
+          imageUrl: 'https://images.pexels.com/photos/18357062/pexels-photo-18357062/free-photo-of-halves-of-figs.jpeg'
         }
+      ]
+    };
+  },
+  beforeMount() {
+    created: {
+      AOS.init();
+    }
+  },
+};
 
-        
-
-        
-      ],
-         }
-     },
-     methods: {
-         submitForm() {
-             if (!this.name || !this.idNumber) {
-                 alert('Please fill in all required fields.');
-             } else {
-                 // Your code to send the SMS message would go here
-             }
-         }, showDescription() {
-         this.buttonText = this.descriptionText;
-       },
-       hideDescription() {
-         this.buttonText = 'Hover me';
-       }
-      
-     }
- }
- 
- 
- 
- 
- 
- 
- </script>
-   <style>
-   table, th, td {
-   border: 1px solid white;
-   border-collapse: collapse;
- }
- .video-container {
-   padding: 20px; /* Adjust the value as per your desired padding size */
-   display: flex;
-   justify-content: center;
- }
-
- .download-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: green;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.slideshow-container {
-  position: relative;
-  height: 200px; /* Adjust the height as needed */
-}
-
-.rotate-container {
-  display: flex;
-  flex-direction: column;
+</script>
+<style scoped>
+.services-container {
+  justify-content: center;
   align-items: center;
 }
 
-.rotate-img {
-  animation: rotation 10s infinite linear;
+.service-card {
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed */
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.service-details {
+  padding: 20px;
 }
 
- 
- </style>
+@media screen and (max-width: 768px) {
+  .service-card {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .card-container {
+    background-color: darkslategray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .card-header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-body strong {
+    color: #4CAF50;
+  }
+
+  .card-footer {
+    background-color: rgb(129, 235, 129);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .cta-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .cta-button a {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .cta-button a:hover {
+    background-color: #92ec97;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .card-container {
+      width: 100%;
+    }
+  }
+</style>
