@@ -5,7 +5,7 @@
   <div>
   <!-- text-4xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text font-extrabold text-transparent tracking-tight sm:text-6xl -->
   <div class=" text-black py-20 text-center">
-    <h1 class="text-3xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text font-extrabold text-transparent tracking-tight sm:text-6xl uppercase" data-aos="zoom-out-up">ITS  NEPTECH Technologies</h1>
+    <h1 class="text-3xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text font-extrabold text-transparent tracking-tight sm:text-6xl uppercase" data-aos="zoom-out-up">IT'S  NEPTECH Technologies</h1>
     <p class="text-lg mb-8" data-aos="zoom-out-up">Discover amazing things here.</p>
     <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fHww" alt="Hero Image" class="mx-auto rounded-full w-48 h-48 object-cover shadow-lg mb-8" />
     <a href="#" class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">Get Started</a>
