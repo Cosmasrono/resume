@@ -26,7 +26,7 @@
 
   <div class=" -800 text-black py-20 text-center" data-aos="zoom-out-up">
     <h1 class="text-4xl font-bold mb-6" data-aos="zoom-out-up"> Neptech Innovations: Pioneering Tomorrow's Breakthroughs</h1>
-    <p class="text-lg mb-8" data-aos="zoom-out-up">Step into a realm of groundbreaking innovations with Wing Innovations. Our commitment goes beyond the ordinary, as we harness the power of cutting-edge technologies to redefine industries and create a future where possibilities are limitless.</p>
+    <p class="text-lg mb-8" data-aos="zoom-out-up">Step into a realm of groundbreaking innovations with Neptech technologies. Our commitment goes beyond the ordinary, as we harness the power of cutting-edge technologies to redefine industries and create a future where possibilities are limitless.</p>
   
    <!-- Image Grid Section -->
    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 flex-wrap mx-auto gap-4 mb-8 shadow-black" data-aos="zoom-out-up">
