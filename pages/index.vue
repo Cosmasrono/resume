@@ -5,7 +5,7 @@
   <div>
   <!-- text-4xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text font-extrabold text-transparent tracking-tight sm:text-6xl -->
   <div class=" text-black py-20 text-center">
-    <h1 class="text-3xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text font-extrabold text-transparent tracking-tight sm:text-6xl uppercase" data-aos="zoom-out-up">Welcome to NEPTECH  Wing Technologies</h1>
+    <h1 class="text-3xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text font-extrabold text-transparent tracking-tight sm:text-6xl uppercase" data-aos="zoom-out-up">ITS  NEPTECH Technologies</h1>
     <p class="text-lg mb-8" data-aos="zoom-out-up">Discover amazing things here.</p>
     <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fHww" alt="Hero Image" class="mx-auto rounded-full w-48 h-48 object-cover shadow-lg mb-8" />
     <a href="#" class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">Get Started</a>
@@ -25,7 +25,7 @@
 
 
   <div class=" -800 text-black py-20 text-center" data-aos="zoom-out-up">
-    <h1 class="text-4xl font-bold mb-6" data-aos="zoom-out-up">Welcome to Neptech Wing Innovations: Pioneering Tomorrow's Breakthroughs</h1>
+    <h1 class="text-4xl font-bold mb-6" data-aos="zoom-out-up"> Neptech Innovations: Pioneering Tomorrow's Breakthroughs</h1>
     <p class="text-lg mb-8" data-aos="zoom-out-up">Step into a realm of groundbreaking innovations with Wing Innovations. Our commitment goes beyond the ordinary, as we harness the power of cutting-edge technologies to redefine industries and create a future where possibilities are limitless.</p>
   
    <!-- Image Grid Section -->
@@ -132,7 +132,7 @@
 
 
     <div class="container mx-auto px-4 py-8">
-<h1 class="text-2xl font-bold mb-4">Reputation of Companies</h1>
+<h1 class="text-2xl font-bold mb-4">Reputation </h1>
 <div v-for="company in companies" :key="company.id" class="  shadow-md rounded-lg p-6 mb-4">
   <h2 class="text-lg font-semibold mb-2">{{ company.name }}</h2>
   <p class="text-gray-600">Reputation: {{ company.reputation }}</p>
@@ -148,8 +148,7 @@ Please fill out the form below and we will get back to you as soon as possible.
 
 
 <div>
-  <Reputation/>
-</div>
+ </div>
 <footer class=" bg-green-200 py-8">
 <div class="container mx-auto px-4">
   <div class="flex flex-wrap justify-center">
@@ -198,8 +197,7 @@ Please fill out the form below and we will get back to you as soon as possible.
 <script >
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import Reputation from '../components/Reputation.vue';
-
+ 
 export default {
 data() {
   return {
